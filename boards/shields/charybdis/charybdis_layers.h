@@ -9,12 +9,12 @@
 #pragma once
 
 // Layer definitions matching the keymap
-#define BASE 0
-#define POINTER 1
-#define LOWER 2
-#define RAISE 3
-#define SYMBOLS 4
-#define SCROLL 5
-#define SNIPING 6
-#define GAMING 7
+#define BASE     0
+#define GAME  1
+#define SHOOTER    2
+#define ANDROID    3
+#define MOD  4
+#define MOD_ANDROID   5
+#define PROG  6
+#define POINTER   7
 
