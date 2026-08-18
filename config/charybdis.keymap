@@ -186,49 +186,49 @@
         curly_l {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <14 15>;
-            layers = <5>;
+            layers = <MOD>;
         };
 
         curly_r {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <20 21>;
-            layers = <5>;
+            layers = <MOD>;
         };
 
         paren_l {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <26 27>;
-            layers = <5>;
+            layers = <MOD>;
         };
 
         paren_r {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <32 33>;
-            layers = <5>;
+            layers = <MOD>;
         };
 
         bracket_l {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <38 39>;
-            layers = <5>;
+            layers = <MOD>;
         };
 
         bracket_r {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <44 45>;
-            layers = <5>;
+            layers = <MOD>;
         };
 
         angle_l {
             bindings = <&kp LESS_THAN>;
             key-positions = <25 26>;
-            layers = <5>;
+            layers = <MOD>;
         };
 
         angle_r {
             bindings = <&kp GREATER_THAN>;
             key-positions = <33 34>;
-            layers = <5>;
+            layers = <MOD>;
         };
     };
 
