@@ -132,11 +132,11 @@
             label = "BASE";
             display-name = "Base";
             bindings = <
-&kp ESC     &kp NUMBER_1  &kp N2    &kp N3  &kp N4  &kp N5  &kp N6         &kp N7     &kp N8     &kp N9     &kp N0     &mo 8
+&kp ESC     &kp NUMBER_1  &kp N2    &kp N3  &kp N4  &kp N5  &kp N6         &kp N7     &kp N8     &kp N9     &kp N0     &mo 7
 &kp TAB     &kp Q         &kp W     &kp E   &kp R   &kp T           &kp Y  &kp U      &kp I      &kp O      &kp P      &kp APOSTROPHE
 &kp LSHIFT  &kp A         &kp S     &kp D   &kp F   &kp G           &kp H  &kp J      &kp K      &kp L      &kp SEMI   &kp RIGHT_SHIFT
 &kp LCTRL   &kp Z         &kp X     &kp C   &kp V   &kp B           &kp N  &kp M      &kp COMMA  &kp DOT    &kp SLASH  &kp LEFT_ALT
-            &kp ENTER     &kp LGUI  &mo 8   &mo 5   &mo 7   &sl 8          &kp SPACE             &kp LCTRL
+            &kp ENTER     &kp LGUI  &mo 7   &mo 4   &mo 6   &sl 7          &kp SPACE             &kp LCTRL
             >;
         };
 
@@ -172,17 +172,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &mo 6   &trans  &trans          &trans          &trans
-            >;
-        };
-
-        kb_test {
-            bindings = <
-&trans  &trans        &trans  &trans        &trans        &trans        &trans          &trans  &trans  &trans        &trans  &trans
-&trans  &trans        &trans  &trans        &trans        &trans                &trans  &trans  &trans  &trans        &trans  &trans
-&trans  &trans        &trans  &trans        &trans        &trans                &trans  &trans  &trans  &trans        &trans  &trans
-&trans  &trans        &trans  &trans        &trans        &trans                &trans  &trans  &trans  &trans        &trans  &trans
-        &kp NUMBER_3  &kp N7  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_6  &kp N8          &kp N5          &kp NUMBER_4
+        &trans  &trans  &trans  &mo 5   &trans  &trans          &trans          &trans
             >;
         };
 
@@ -226,7 +216,7 @@
             label = "POINTER";
             display-name = "Pointer";
             bindings = <
-&none           &tog 1             &tog 2            &tog 3            &tog 4            &none  &bt BT_SEL 0             &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &bt BT_CLR
+&none           &tog 1             &tog 2            &tog 3            &none             &none  &bt BT_SEL 0             &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &bt BT_CLR
 &none           &languages_pack_1  &language_pack_2  &language_pack_3  &language_pack_4  &none                &none      &kp N7        &kp N8        &kp N9        &kp DEL        &studio_unlock
 &kp LEFT_SHIFT  &none              &mkp MCLK         &mkp LCLK         &mkp RCLK         &none                &kp DOT    &kp N4        &kp N5        &kp N6        &kp BACKSPACE  &none
 &kp LCTRL       &kp KP_PLUS        &kp KP_MINUS      &kp KP_MULTIPLY   &kp KP_DIVIDE     &none                &kp COMMA  &kp N1        &kp N2        &kp N3        &kp N0         &kp LEFT_ALT
