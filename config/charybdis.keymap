@@ -22,19 +22,9 @@
 
 / {
     behaviors {
-        // Hold-tap behavior for layer with tap-preferred
-        // Tap-dance for GUI/Ctrl+B
-        // Tap/hold Alt, double-tap Ctrl+Shift+Z
-        // Home row mods - Left hand
-        // Home row mods - Right hand
+
     };
-
     macros {
-        // Ctrl+Alt+Cmd macro
-        // Ctrl+Shift+Alt macro
-        // Ctrl+Alt macro
-        // Hold Ctrl+Cmd+Left Click while key is pressed (for mouse drag window actions)
-
         languages_pack_1: languages_pack_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
